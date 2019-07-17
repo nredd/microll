@@ -12,8 +12,8 @@ impl Default for State {
             file_menu: Default::default(),
             main_body_text: String::from("Here: Have some sample text!"),
             // Changed this to a random wikipedia page for testing
-            // url_to_get: String::from("https://www.york.ac.uk/teaching/cws/wws/webpage1.html"),
-            url_to_get: String::from("https://en.wikipedia.org/wiki/Special:Random"),
+             url_to_get: String::from("https://www.york.ac.uk/teaching/cws/wws/webpage1.html"),
+            //url_to_get: String::from("https://en.wikipedia.org/wiki/Special:Random"),
         }
     }
 }
